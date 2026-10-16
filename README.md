@@ -4,11 +4,13 @@ An original, tiny vertical scrolling shooter inspired by 8-bit arcade games. **P
 
 ## Play
 
-Once GitHub Pages is deployed: **https://canmils.github.io/retro-air-fighter/**
+**[Play Retro Air Fighter in your browser](https://canmils.github.io/retro-air-fighter/)** — free, no account, no installation. Desktop: arrow keys + Space. Phone: touch and drag.
 
-That URL is the intended destination, not a claim that deployment is live.
+[Give playtest feedback](https://github.com/canmils/retro-air-fighter/issues/new?template=playtest.yml) · [Product case study](PORTFOLIO.md) · [Deployment workflow](https://github.com/canmils/retro-air-fighter/actions/workflows/pages.yml)
 
-For now, download this repository and open `index.html` directly in a modern browser. No installation or API key required. For a local web server, with Python 3 installed:
+AI-assisted implementation directed by Joan Casellas. This is an early browser MVP; player retention and commercial performance have not been measured.
+
+To play offline, download this repository and open `index.html` directly in a modern browser. No installation or API key required. For a local web server, with Python 3 installed:
 
 ```sh
 python3 -m http.server 8000
@@ -57,11 +59,11 @@ To contribute, fork the repository, create a branch and submit a focused pull re
 
 ## Publish with GitHub Pages
 
-1. Create a **public** repository named `retro-air-fighter` under `canmils`. Initialise with a README if uploading through the connector.
-2. Add the supplied files to the root, including `.github/`.
-3. In **Settings → Pages → Build and deployment**, set **Source: GitHub Actions**.
-4. Push to `main` (or run the **Deploy game** workflow manually).
-5. Check the workflow succeeds before sharing the Pages URL.
+This repository is already published with Pages. For your own fork:
+
+1. Enable Pages under **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+2. Push to `main` or run **Deploy game** manually under Actions.
+3. Check that deployment succeeds and use your fork's Pages URL. Update the project and feedback links if publishing under another account.
 
 The CI workflow runs tests on pushes and pull requests. The deployment workflow runs tests before publishing only the four runtime files.
 
