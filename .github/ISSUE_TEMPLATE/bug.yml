@@ -1,0 +1,22 @@
+name: Bug report
+description: Report something that does not work
+title: '[Bug] '
+body:
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual behaviour
+    validations:
+      required: true

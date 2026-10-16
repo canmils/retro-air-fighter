@@ -1,0 +1,25 @@
+name: Playtest feedback
+description: Tell us how your flight felt
+title: '[Playtest] '
+body:
+  - type: input
+    id: device
+    attributes:
+      label: Device, browser and controls
+      placeholder: iPhone / Safari / touch, or Windows / Chrome / keyboard
+    validations:
+      required: true
+  - type: textarea
+    id: run
+    attributes:
+      label: How did your run go?
+      description: Did you finish? Did you retry? Where did you lose lives?
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change first?
+      description: Controls, difficulty, clarity or anything else. Please be specific.
+    validations:
+      required: true
