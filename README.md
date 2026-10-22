@@ -8,6 +8,10 @@ An original, tiny vertical scrolling shooter inspired by 8-bit arcade games. **P
 
 [Give playtest feedback](https://github.com/canmils/retro-air-fighter/issues/new?template=playtest.yml) · [Product case study](PORTFOLIO.md) · [Deployment workflow](https://github.com/canmils/retro-air-fighter/actions/workflows/pages.yml)
 
+[![Retro Air Fighter public browser gameplay](docs/preview.jpg)](https://canmils.github.io/retro-air-fighter/)
+
+*Actual public-browser capture, 22 October 2026. [Play Retro Air Fighter](https://canmils.github.io/retro-air-fighter/).*
+
 AI-assisted implementation directed by Joan Casellas. This is an early browser MVP; player retention and commercial performance have not been measured.
 
 To play offline, download this repository and open `index.html` directly in a modern browser. No installation or API key required. For a local web server, with Python 3 installed:
